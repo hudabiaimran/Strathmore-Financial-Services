@@ -1,0 +1,55 @@
+body {
+    font-family: arial;
+    margin: 0;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+main {
+ padding: 20px;
+ background-color: white;
+}
+
+.image {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+}
+
+.top-bar {
+   background-color: navy;
+   padding: 10px;
+}
+
+.top-row {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.logo {
+   width: 80px;
+   border-radius: 50%;
+}
+
+.site-title {
+   color: white;
+   margin: 0;
+   font-size: 24px;
+}
+.main-nav {
+   text-align: center;
+   margin-top: 10px;
+}
+
+.main-nav a {
+   color: white;
+   margin: 0 15px;
+   text-decoration: none;
+}
+.main-nav a:hover {
+   text-decoration: underline;
+}
